@@ -1,0 +1,113 @@
+h1 {
+    border: 0px;
+    background-color: rgb(121, 29, 29);
+    border-width: 0px;
+    border-style: groove;
+    text-align: center;
+    color: beige;
+    margin: 0px;
+    padding: 25px;
+    font-size: 45px;
+}
+
+body {
+    margin: 0;          
+    padding: 0;
+    background-color: rgb(255, 255, 255);       
+}
+
+/* Main container for side-by-side layout */
+.side-by-side-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+/* Image container */
+.image-container {
+    flex: 1;
+    max-width: 300px;
+    text-align: center;
+}
+
+.i {
+    border-radius: 30%;
+    width: 100%;
+    max-width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.j {
+    font-size: 40px;
+    color: beige;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Buttons container */
+.buttons-container {
+    flex: 1;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Improved image buttons style */
+.image-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.image-button img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    border: 3px solid beige;
+    transition: all 0.3s ease;
+}
+
+.image-button h3 {
+    margin: 15px 0 0 0;
+    font-size: 18px;
+    text-align: center;
+    color: beige;
+    background-color: rgb(92, 15, 15);
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 180px;
+    transition: all 0.3s ease;
+}
+
+.image-button:hover img {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+.image-button:hover h3 {
+    background-color: rgba(92, 2, 2, 0.9);
+    transform: translateY(-5px);
+}
+
+section {
+    background-color:rgb(128, 30, 30);
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
